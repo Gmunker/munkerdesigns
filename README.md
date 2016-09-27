@@ -1,1 +1,1 @@
-BoilerPlate 3 Project
+React BoilerPlate Project
