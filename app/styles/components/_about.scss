@@ -1,0 +1,18 @@
+.about-div {
+  display: flex;
+  background-color: $siteGrey;
+}
+
+.about-grid {
+    margin: 10vh 0 10vh 0;
+    display: flex;
+
+    col p {
+      color: black;
+      font-size: 2em;
+    } 
+}
+
+#about-section-header {
+  top: 15vh!important;
+}

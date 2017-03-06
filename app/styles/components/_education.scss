@@ -1,0 +1,17 @@
+.education-div {
+  display: flex;
+  background-color: black;
+  color: $siteGrey;
+  min-height: 100vh;
+}
+
+.education-grid {
+    margin: 10vh 0 10vh 0;
+    display: flex;
+
+    col p {
+      color: black;
+      font-size: 2em;
+    }
+  
+}

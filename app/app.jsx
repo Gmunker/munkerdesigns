@@ -1,14 +1,23 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+import React from 'react';
+import ReactDOM from 'react-dom';
+let {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
-//Load Foundation
-$(document).foundation();
+import Home from 'Home';
+import About from 'About';
+import Education from 'Education';
+import Portfolio from 'Portfolio';
+import Contact from 'Contact';
 
 //Load css
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-	<p>Boilerplate 3 project</p>,
+	<div>
+	<Home />
+	<About />
+	<Education />
+	<Portfolio />
+	<Contact />
+	</div>,
 	document.getElementById('app')
 	);

@@ -1,0 +1,68 @@
+.home-div {
+  
+  height: 100vh;
+
+#main-company-name {
+position: absolute;
+top: 77vh;
+left: 13vw;
+
+}
+
+#main-sum-loc {
+  position: absolute;
+  top: 64vh;
+  left: 22vw;
+  text-align: right;
+}
+
+#main-phone {
+  transform: rotate(270deg);
+  position: absolute;
+  top: 60vh;
+  left: 55vw;
+}
+
+#main-basic-info {
+  transform: rotate(270deg);
+  position: absolute;
+  top: 53vh;
+  left: 60vw;
+}
+
+ div h1 {
+   font-size: 7vw;
+ }
+
+ div h2 {
+  font-size: 5vh;
+ }
+
+ div h3 {
+   font-size: 3vw;
+ }
+
+ div h4 {
+   font-size: 3vh;
+ }
+
+}
+
+#home-border {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  top: 5vh;
+  left: 5vw;
+  border: 1px solid $siteGrey;
+}
+
+#cogs-div {
+  position: absolute;
+  top: 14vh;
+  left: 20vw;
+
+  img {
+    opacity: .70;
+  }
+}

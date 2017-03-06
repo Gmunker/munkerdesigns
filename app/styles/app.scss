@@ -1,8 +1,8 @@
 @import "base/variables";
 
-//foundation
-@import "base/foundation-settings";
-@import "foundation";
-@include foundation-everything;
-
-//components
+@import "components/sitedefaults";
+@import "components/about";
+@import "components/home";
+@import "components/education";
+@import "components/portfolio";
+@import "components/contact";
