@@ -14,10 +14,6 @@ require('style!css!sass!applicationStyles');
 ReactDOM.render(
 	<div>
 	<Home />
-	<About />
-	<Education />
-	<Portfolio />
-	<Contact />
 	</div>,
 	document.getElementById('app')
 	);
