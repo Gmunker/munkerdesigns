@@ -1,68 +1,53 @@
 .home-div {
   
-  height: 100vh;
-
-#main-company-name {
-position: absolute;
-top: 77vh;
-left: 13vw;
-
-}
+.cogs-img {
+    position: relative;
+    margin: 50px auto 0 auto;
+    opacity: .70;
+  }
 
 #main-sum-loc {
-  position: absolute;
-  top: 64vh;
-  left: 22vw;
-  text-align: right;
+  position: relative;
+  p{
+    text-align: right;
+  }
+  //text-align: right;
+  h3 {
+    font-size: 3vmax;
+  }
+}
+
+#main-filler {
+  height: 100px;
 }
 
 #main-phone {
-  transform: rotate(270deg);
-  position: absolute;
-  top: 60vh;
-  left: 55vw;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  height: 16vmin;
+  bottom: -8vmin;
+  div {
+    width: 4vmax;
+  }
+  h2 {
+    position: relative;
+    white-space: nowrap;
+    font-size: 3vmax;
+    transform: rotate(270deg);
+  }
+  h4 {
+    font-size: 2vmax;
+    white-space: nowrap;
+    transform: rotate(270deg);
+  }
 }
+  #main-company-name {
+    h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 7vmax;
+    }
 
-#main-basic-info {
-  transform: rotate(270deg);
-  position: absolute;
-  top: 53vh;
-  left: 60vw;
-}
-
- div h1 {
-   font-size: 7vw;
- }
-
- div h2 {
-  font-size: 5vh;
- }
-
- div h3 {
-   font-size: 3vw;
- }
-
- div h4 {
-   font-size: 3vh;
- }
-
-}
-
-#home-border {
-  position: absolute;
-  width: 90vw;
-  height: 90vh;
-  top: 5vh;
-  left: 5vw;
-  border: 1px solid $siteGrey;
-}
-
-#cogs-div {
-  position: absolute;
-  top: 14vh;
-  left: 20vw;
-
-  img {
-    opacity: .70;
   }
 }

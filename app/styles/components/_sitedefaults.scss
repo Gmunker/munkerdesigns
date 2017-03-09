@@ -25,3 +25,36 @@ body, html {
   .siteGrey {
     color: $siteGrey;
   }
+
+  #main-div {
+    height: 100vh;
+  }
+
+  #border {
+  position: relative;
+  width: 90%;
+  min-height: 92vh;
+  top: 4vh;
+  // left: 5vw;
+  border: 1px solid $siteGrey;
+  z-index: 10;  
+}
+
+  #bottom-bar {
+  position: relative;
+  left: 5%;
+  z-index: 9;
+  
+  display: flex;
+  
+  #green {
+    height: 4vh;
+    background-color: $siteGreen;
+    width: 70%;
+  }
+  #grey {
+    height: 4vh;
+    background-color: $siteGrey;
+    width: 20%;
+  }
+}
