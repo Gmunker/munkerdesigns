@@ -1,17 +1,34 @@
 .home-div {
   
-.cogs-img {
-    position: relative;
-    margin: 50px auto 0 auto;
-    opacity: .70;
+// .cogs-img {
+//     position: relative;
+//     margin: 50px auto 0 auto;
+//     //opacity: .70;
+//   }
+
+.cogs {
+    display: flex;
+
+      .cog1 {
+      font-size: 40vmin;
+    }
+    .cog2 {
+      font-size: 20vmin;
+    }
+    .cog3 {
+      font-size: 18vmin;
+      position: relative;
+      top: 14vmin;
+      left: -8vmin;
+    }
+
   }
+
+  
 
 #main-sum-loc {
   position: relative;
-  p{
-    text-align: right;
-  }
-  //text-align: right;
+  text-align: right;
   h3 {
     font-size: 3vmax;
   }
@@ -26,7 +43,7 @@
   z-index: 1;
   display: flex;
   height: 16vmin;
-  bottom: -8vmin;
+  bottom: -15vmin;
   div {
     width: 4vmax;
   }
@@ -40,13 +57,15 @@
     font-size: 2vmax;
     white-space: nowrap;
     transform: rotate(270deg);
+    position: relative;
+    bottom: -8vmin;
   }
 }
   #main-company-name {
     h1 {
       margin: 0;
       padding: 0;
-      font-size: 7vmin;
+      font-size: 5vmax;
     }
 
   }
